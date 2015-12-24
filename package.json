@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jlslew/cuddly-parakeet/issues"
   },
-  "homepage": "https://github.com/jlslew/cuddly-parakeet"
+  "homepage": "https://github.com/jlslew/cuddly-parakeet",
+  "devDependencies": {
+    "express": "^4.13.3",
+    "mimosa-less": "^2.1.0"
+  }
 }
