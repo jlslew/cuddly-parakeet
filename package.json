@@ -1,0 +1,21 @@
+{
+  "name": "@jlslew/demo",
+  "version": "1.0.0",
+  "description": "Insert package description here!",
+  "main": "mimosa-config.js",
+  "scripts": {
+    "build": "mimosa build -omp; git add public; git commit -m '[Mimosa] Building...'",
+    "deploy": "npm run build; git subtree push --prefix public origin gh-pages",
+    "watch": "mimosa watch -sd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlslew/cuddly-parakeet.git"
+  },
+  "author": "Jonathan Lee Slew <jonathan.leeslew@sympatico.ca>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlslew/cuddly-parakeet/issues"
+  },
+  "homepage": "https://github.com/jlslew/cuddly-parakeet"
+}
