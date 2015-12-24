@@ -1,0 +1,21 @@
+{
+  "name": "@jlslew/demo",
+  "version": "1.0.0",
+  "description": "Insert package description here!",
+  "main": "config.js",
+  "scripts": {
+    "build": "brunch build -p; git add public; git commit -m '[Brunch] Building...'",
+    "deploy": "npm run build; git subtree push --prefix public origin gh-pages",
+    "watch": "brunch watch -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlslew/cuddly-parakeet.git"
+  },
+  "author": "Jonathan Lee Slew <jonathan.leeslew@sympatico.ca>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlslew/cuddly-parakeet/issues"
+  },
+  "homepage": "https://github.com/jlslew/cuddly-parakeet"
+}
