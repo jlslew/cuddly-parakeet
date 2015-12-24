@@ -15,5 +15,13 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "uikit": "~2.24.3"
+  },
+  "overrides": {
+    "uikit": {
+      "main": ["css/uikit.gradient.css", "js/uikit.js"]
+    }
+  }
 }

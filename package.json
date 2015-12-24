@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/jlslew/cuddly-parakeet/issues"
   },
-  "homepage": "https://github.com/jlslew/cuddly-parakeet"
+  "homepage": "https://github.com/jlslew/cuddly-parakeet",
+  "devDependencies": {
+    "clean-css-brunch": "^1.8.0",
+    "css-brunch": "^1.7.0",
+    "express": "^4.13.3",
+    "javascript-brunch": "^1.8.0",
+    "uglify-js-brunch": "^1.7.8"
+  }
 }
