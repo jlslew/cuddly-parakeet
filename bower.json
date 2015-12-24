@@ -1,0 +1,19 @@
+{
+  "name": "@jlslew/demo",
+  "description": "Insert package description here!",
+  "main": "webpack.config.js",
+  "authors": [
+    "Jonathan Lee Slew <jonathan.leeslew@sympatico.ca>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jlslew/cuddly-parakeet",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
